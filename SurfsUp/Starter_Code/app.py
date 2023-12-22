@@ -160,7 +160,7 @@ def start(start):
 
 
     results_start_ls = list(np.ravel(results_start))
-    return jsonify(resluts_start_ls)
+    return jsonify(results_start_ls)
 
 
 
@@ -178,7 +178,7 @@ def start_end(start, end):
 
 
     results_start_end_ls = list(np.ravel(results_start_end))
-    return jsonify(resluts_start_end_ls)
+    return jsonify(results_start_end_ls)
 
 if __name__ == '__main__':
     app.run(debug=True)
